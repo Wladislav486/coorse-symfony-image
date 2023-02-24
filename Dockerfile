@@ -5,7 +5,6 @@ RUN apt update \
     && apt install -y software-properties-common \
     && add-apt-repository ppa:ondrej/php \
     && apt install -y git wget curl \
-#    && postgres install
 #    && apt install -y postgresql-12 postgresql-client-12 postgresql-contrib-12 \
     && apt install sudo \
     && apt install unzip
