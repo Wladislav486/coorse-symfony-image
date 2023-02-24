@@ -4,9 +4,9 @@
 1. php 7.4
 2. Composer 2.0.13
 3. Symfony cli 4.25.2
-4. Nodejs 14.17.0
+4. Nodejs 14
 5. npm 7.15.0
-6. postgres 12.5
+6. postgres 12
 
 ## Создаём и отправляем образ на DockerHub
 1. Создаём образ  
