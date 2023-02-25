@@ -24,3 +24,13 @@
    `unzip -v`  
 4. Пушим в репозиторий DockerHub  
    `docker push wladislav486/ubuntu-shop-symfony:v1`  
+
+## Учебные материалы
+1. Установка Docker на виндовс
+> https://youtu.be/gAYPxmtbadc
+2. Курс по Docker
+>https://youtube.com/playlist?list=PLU2ftbIeotGoGFC_2lj-OplT_cItXfu48
+3. Документация Dockerfile
+> https://docs.docker.com/engine/reference/builder/
+4. Документация docker-compose
+> https://docs.docker.com/compose/gettingstarted/
