@@ -17,14 +17,17 @@ RUN wget https://github.com/symfony/cli/releases/download/v4.25.2/symfony_linux_
     && chmod +x symfony_linux_amd64 \
     && mv symfony_linux_amd64 /usr/local/bin/symfony
 
-## Composer
+# Composer
 RUN wget https://getcomposer.org/download/2.0.13/composer.phar \
     && mv composer.phar /usr/bin/composer \
     && chmod +x /usr/bin/composer
 
-## Node.js
+# Node.js
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
     && apt install nodejs
 
-## npm
+# npm
 RUN npm install -g npm@7.15.0
+
+# yarn
+RUN npm install -g yarn@1.22.5
